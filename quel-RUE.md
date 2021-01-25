@@ -3,7 +3,7 @@
 **Constat**: une diversité de propositions d'obédience bigarée.
 => Citer quelques exemples
 
-Dans ce context, [Adrien Fabre](https://sites.google.com/view/adrien-fabre) et [Malka Guillot](malkaguillot.weebly.com/) prennent leur casquette d'économiste pour poser les bases d'une réflexion politique. L'objectif est d'ouvrir la discussion, d'un point de vue politique relativement agnostique afin de faire émerger les bases d'un consensus. 
+Dans ce context, [Adrien Fabre](https://sites.google.com/view/adrien-fabre) et [Malka Guillot](malkaguillot.weebly.com/) prennent leur casquette d'économiste pour poser les bases d'une réflexion politique. L'objectif est d'ouvrir la discussion, d'un point de vue politique relativement agnostique afin de faire émerger les bases d'un consensus tout en parant aux éventuelles critiques. 
 
 **Objectifs** 
 1. Identifier une famille de propositions à même de répondre aux objectifs de justice fiscale fixée par le mouvement
