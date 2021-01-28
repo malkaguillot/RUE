@@ -4,6 +4,10 @@ Multiplicateur budgétaire: si le RUE profite essentiellement à des personnes a
 
 Effet sur les loyers: si le RUE est indexé sur les loyers, potentielle inflation de ces derniers? cf débat sur les APL.
 
+# Côté marché du travail
+
+Renforcement du pouvoir de négociation des employés ? 
+
 # Question très fondamentale
 
 Quel est le bon montant ? qu'est-ce qui permet une vie décente ? 
