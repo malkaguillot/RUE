@@ -663,8 +663,7 @@ print_bracket_most_recent_params(tbs_copy, 1)
 def modify_parameters(parameters):
     file_path = os.path.join(dir_path, 'irpp_lfi.yaml')
     reform_parameters_subtree = load_parameter_file(name='irpp_lfi', file_path=file_path)
-    parameters.add_child('irpp_lfi', reform_parameters_subtree)
-    #parameters.impot_revenu.bareme = reform_parameters_subtree.bareme
+    parameters.impot_revenu.bareme.update(start='2012-01-01', value = reform_parameters_subtree)
     return parameters
 
 class reform_fi(Reform):
