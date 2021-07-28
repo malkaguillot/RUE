@@ -7,7 +7,17 @@ bareme:
         '2013-01-01':
           value: null
         '2012-01-01':
-          value: 0.02
+          value: 0.01
+      threshold:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 0
+    - rate:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 0.05
       threshold:
         '2013-01-01':
           value: null
@@ -17,7 +27,17 @@ bareme:
         '2013-01-01':
           value: null
         '2012-01-01':
+          value: 0.10
+      threshold:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
           value: 14097
+    - rate:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 0.15
       threshold:
         '2013-01-01':
           value: null
@@ -27,7 +47,7 @@ bareme:
         '2013-01-01':
           value: null
         '2012-01-01':
-          value: 0.13
+          value: 0.20
       threshold:
         '2013-01-01':
           value: null
@@ -47,7 +67,7 @@ bareme:
         '2013-01-01':
           value: null
         '2012-01-01':
-          value: 0.5
+          value: 0.30
       threshold:
         '2013-01-01':
           value: null
@@ -57,7 +77,7 @@ bareme:
         '2013-01-01':
           value: null
         '2012-01-01':
-          value: 0.6
+          value: 0.35
       threshold:
         '2013-01-01':
           value: null
@@ -67,7 +87,7 @@ bareme:
         '2013-01-01':
           value: null
         '2012-01-01':
-          value: 0.25
+          value: 0.40
       threshold:
         '2013-01-01':
           value: null
@@ -77,7 +97,7 @@ bareme:
         '2013-01-01':
           value: null
         '2012-01-01':
-          value: 0.5
+          value: 0.45
       threshold:
         '2013-01-01':
           value: null
@@ -87,7 +107,7 @@ bareme:
         '2013-01-01':
           value: null
         '2012-01-01':
-          value: 0.6
+          value: 0.50
       threshold:
         '2013-01-01':
           value: null
@@ -97,7 +117,7 @@ bareme:
         '2013-01-01':
           value: null
         '2012-01-01':
-          value: 0.25
+          value: 0.55
       threshold:
         '2013-01-01':
           value: null
@@ -107,7 +127,7 @@ bareme:
         '2013-01-01':
           value: null
         '2012-01-01':
-          value: 0.5
+          value: 0.60
       threshold:
         '2013-01-01':
           value: null
@@ -117,51 +137,9 @@ bareme:
         '2013-01-01':
           value: null
         '2012-01-01':
-          value: 0.6
+          value: 0.90
       threshold:
         '2013-01-01':
           value: null
         '2012-01-01':
           value: 375922
-imposition:
-  description: "Indicatrice d'imposition"
-  values:
-    '2013-01-01':
-      value: null
-    '2012-01-01':
-      value: true
-credit_enfant:
-  description: "Crédit d'impôt forfaitaire par enfant"
-  values:
-    '2013-01-01':
-      value: null
-    '2012-01-01':
-      value: 0
-reduc_enfant:
-  description: "Réduction d'impôt forfaitaire par enfant"
-  values:
-    '2013-01-01':
-      value: null
-    '2012-01-01':
-      value: 0
-abatt_enfant:
-  description: Abattement forfaitaire sur le revenu par enfant
-  values:
-    '2013-01-01':
-      value: null
-    '2012-01-01':
-      value: 0
-reduc_conj:
-  description: "Réduction d'impôt forfaitaire si conjoint"
-  values:
-    '2013-01-01':
-      value: null
-    '2012-01-01':
-      value: 0
-abatt_conj:
-  description: Abattement forfaitaire sur le revenu si conjoint
-  values:
-    '2013-01-01':
-      value: null
-    '2012-01-01':
-      value: 0
