@@ -29,14 +29,17 @@ data_output_path = current_path.replace("reforms_irpp\\reforms_irpp", "reforms_i
 log_path = current_path.replace("reforms_irpp\reforms_irpp", "\logs\\")
 # former path : graphs_path = "C:\\Users\\elieg\\reforms_irpp\\graphs\\"
 
-from taxipp.reforms.asof import create_system_asof
+#from taxipp.reforms.asof import create_system_asof
 from openfisca_france_data import france_data_tax_benefit_system
 from openfisca_france_data.erfs_fpr.get_survey_scenario import get_survey_scenario
 from openfisca_survey_manager.utils import inflate_parameters
+from openfisca_survey_manager.utils import asof
+from openfisca_france.model.base import *
 
 # for FI reform
 from openfisca_core.reforms import Reform
 from openfisca_core import periods
+dir_path = os.path.dirname(__file__)
 
 # For export to log
 import sys
@@ -44,6 +47,16 @@ old_stdout = sys.stdout
 log_name = log_path + "reform_FI_July21"
 log_file = open(log_name + ".log","w")
 #sys.stdout = log_file
+
+# To replace taxipp import
+def create_system_asof(instant):
+
+    class system_asof(Reform):
+        name = u'Réforme supprimant tout élément du système introduit après le {}'.format(instant)
+        def apply(self):
+            asof(self, instant)
+
+    return system_asof
 
 
 #variables_mismatch
@@ -613,9 +626,19 @@ class modif_taux_irpp(Reform):
         self.modify_parameters(modifier_function = reform_modify_parameters)
 
 #tax_benefit_system_reforme = mute_aides_logement(tbs_copy)
+        
+def modif_taux_irpp_lfi(parameters):
+    file_path = os.path.join(dir_path, 'irpp_lfi.yaml')
+    reform_parameters_subtree = load_parameter_file(file_path, name='irpp_lfi')
+    parameters.add_child('irpp_lfi', reform_parameters_subtree)
+    return parameters
 
+class reform_irpp_lfi(Reform):
+    def apply(self):
+        self.modify_parameters(modifier_function = modif_taux_irpp_lfi)
 
-
+tax_benefit_systems_dict[reform_year] = reform_irpp_lfi(tax_benefit_systems_dict[reform_year])
+print_bracket_most_recent_params(tax_benefit_systems_dict[reform_year], 1)
 
 
 # Then use preref and simul

@@ -1,145 +1,89 @@
-description: IRPP proposé par LFI #https://www.assemblee-nationale.fr/dyn/15/amendements/2272A/CION_FIN/CF1391
+description: IRPP voulu par LFI #https://www.assemblee-nationale.fr/dyn/15/amendements/2272A/CION_FIN/CF1391
 bareme:
-  unit: currency # déflaté de 1.09513: crcoissance du PIB nominal entre 2013 et 2019 (https://www.insee.fr/fr/statistiques/2830613)
-  description: Barème de l'impôt
+  unit: currency # deflate de 1.09513: crcoissance du PIB nominal entre 2013 et 2019 (https://www.insee.fr/fr/statistiques/2830613)
+  description: Bareme de l'impot
   brackets:
     - rate:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0.01
       threshold:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0
     - rate:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0.05
       threshold:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 9398
     - rate:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0.10
       threshold:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 14097
     - rate:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0.15
       threshold:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 18796
     - rate:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0.20
       threshold:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 25375
     - rate:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0.25
       threshold:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 28194
     - rate:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0.30
       threshold:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 31014
     - rate:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0.35
       threshold:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 34773
     - rate:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0.40
       threshold:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 40412
     - rate:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0.45
       threshold:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 56388
     - rate:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0.50
       threshold:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 93981
     - rate:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0.55
       threshold:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 131573
     - rate:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0.60
       threshold:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 244349
     - rate:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 0.90
       threshold:
-        '2013-01-01':
-          value: null
         '2012-01-01':
           value: 375922
