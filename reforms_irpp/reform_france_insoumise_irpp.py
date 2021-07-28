@@ -36,7 +36,7 @@ from openfisca_survey_manager.utils import inflate_parameters
 
 # for FI reform
 from openfisca_core.reforms import Reform
-
+from openfisca_core import periods
 
 # For export to log
 import sys

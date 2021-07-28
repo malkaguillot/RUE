@@ -1,0 +1,167 @@
+description: IRPP proposé par LFI #https://www.assemblee-nationale.fr/dyn/15/amendements/2272A/CION_FIN/CF1391
+bareme:
+  unit: currency # déflaté de 1.09513: crcoissance du PIB nominal entre 2013 et 2019 (https://www.insee.fr/fr/statistiques/2830613)
+  description: Barème de l'impôt
+  brackets:
+    - rate:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 0.02
+      threshold:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 9398
+    - rate:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 14097
+      threshold:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 18796
+    - rate:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 0.13
+      threshold:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 25375
+    - rate:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 0.25
+      threshold:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 28194
+    - rate:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 0.5
+      threshold:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 31014
+    - rate:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 0.6
+      threshold:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 34773
+    - rate:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 0.25
+      threshold:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 40412
+    - rate:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 0.5
+      threshold:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 56388
+    - rate:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 0.6
+      threshold:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 93981
+    - rate:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 0.25
+      threshold:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 131573
+    - rate:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 0.5
+      threshold:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 244349
+    - rate:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 0.6
+      threshold:
+        '2013-01-01':
+          value: null
+        '2012-01-01':
+          value: 375922
+imposition:
+  description: "Indicatrice d'imposition"
+  values:
+    '2013-01-01':
+      value: null
+    '2012-01-01':
+      value: true
+credit_enfant:
+  description: "Crédit d'impôt forfaitaire par enfant"
+  values:
+    '2013-01-01':
+      value: null
+    '2012-01-01':
+      value: 0
+reduc_enfant:
+  description: "Réduction d'impôt forfaitaire par enfant"
+  values:
+    '2013-01-01':
+      value: null
+    '2012-01-01':
+      value: 0
+abatt_enfant:
+  description: Abattement forfaitaire sur le revenu par enfant
+  values:
+    '2013-01-01':
+      value: null
+    '2012-01-01':
+      value: 0
+reduc_conj:
+  description: "Réduction d'impôt forfaitaire si conjoint"
+  values:
+    '2013-01-01':
+      value: null
+    '2012-01-01':
+      value: 0
+abatt_conj:
+  description: Abattement forfaitaire sur le revenu si conjoint
+  values:
+    '2013-01-01':
+      value: null
+    '2012-01-01':
+      value: 0
